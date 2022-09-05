@@ -58,10 +58,10 @@ setTimeout(function(){
     applause.play();
     Swal.fire({
         title: 'The Norns Have spoken<br>This is your fate!',
-        html: 'You won' + SelectedItem + ' | ' + '<a href="#"> Claim Now </a>',
+        html: 'You won&nbsp' + SelectedItem + ' | ' + '<a href="#" style="text-size: 80px; font-weight: 900; color: darkblue;"> Claim Now </a>',
         imageUrl: './media/Logo-Sepia-Honu.JPG',
-        imageWidth: 200,
-        imageHeight: 200,
+        imageWidth: 500,
+        imageHeight: 500,
         imageAlt: 'Custom image',
       })
 }, 5500)
