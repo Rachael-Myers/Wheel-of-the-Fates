@@ -52,7 +52,7 @@ span{
 }
 .span1{
     clip-path: polygon(0 17%, 0 50%, 50% 50%);
-    background-color: rgb(0, 128, 0);
+    background-color: rgba(0, 128, 0, 0.574);
 }
 .span2{
     clip-path: polygon(0 17%, 30% 0, 50% 50%);
@@ -156,4 +156,43 @@ h5{
     top: 38%;
     right: 7%;
     transform: rotate(-20deg);
+}
+.spin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 8px double gold;
+    outline: 8px double black;
+    background:royalblue;
+    color: gold;
+    box-shadow: 0 5px 20px black;
+    font-weight: bolder;
+    font-size: 28px;
+    text-shadow: 0 3px black;
+    cursor: pointer;
+    z-index: 1000;
+}
+.spin:active{
+    width: 90px;
+    height: 90px;
+    font-size: 24px;
+    text-shadow: 0 3px whitesmoke;
+    background: rgb(118, 148, 241);
+    color: yellow;
+    outline: 8px double whitesmoke;
+}
+.mainbox.animate:after{
+    animation:animateArrow 0.7s ease infinite;
+}
+audio{
+    display: none;
+}
+@keyframes animateArrow{
+    50% {
+        right: -50px;
+    }
 }
