@@ -23,7 +23,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background:url(media/Lewis-Creek-Trail-Pool-by-RAMyers.JPG) no-repeat;
+    background-image:url(media/Lewis-Creek-Trail-Pool-by-RAMyers.JPG) no-repeat;
     background-size: cover;
     background-position: center;
 }
