@@ -1,15 +1,15 @@
 
   @font-face {
     font-family: 'RUNE';
-    src: url(/fonts/RUNE.TTF);
+    src: url(fonts/RUNE.TTF);
   }
   @font-face {
     font-family: 'MORPHEUS';
-    src: url(/fonts/MORPHEUS.TTF);
+    src: url(fonts/MORPHEUS.TTF);
   }
   @font-face {
     font-family: 'evenescent';
-    src: url(/fonts/evanescent.ttf);
+    src: url(fonts/evanescent.ttf);
   }
 
 *{
@@ -23,7 +23,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background:url(/media/Lewis-Creek-Trail-Pool-by-RAMyers.JPG) no-repeat;
+    background:url(media/Lewis-Creek-Trail-Pool-by-RAMyers.JPG) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -51,7 +51,7 @@ main h2{z-index: 2000;
     content:"";
     width: 100%;
     height: 100%;
-    background:url(/media/viking-arrow.png) no-repeat;
+    background:url(media/viking-arrow.png) no-repeat;
     background-size: 10%;
     left:60%;
     top: 48%;
