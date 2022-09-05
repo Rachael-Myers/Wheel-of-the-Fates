@@ -20,7 +20,7 @@ function spin(){
     let SelectItem = "";
 
 
-    let AC = shuffle([1890, 2250, 2610]);
+    let ALGIZ = shuffle([1890, 2250, 2610]);
     let Camera = shuffle([1850, 2210, 2570]);
     let Zonk = shuffle([1770, 2130, 2490]);
     let PS = shuffle([1810, 2170, 2530]);
@@ -29,7 +29,7 @@ function spin(){
     let ROG = shuffle([1570, 1930, 2290]);
 
     let results = shuffle([
-        AC[0],
+        ALGIZ[0],
         Camera[0],
         Zonk[0],
         PS[0],
@@ -39,13 +39,13 @@ function spin(){
     ]);
 
 
-if(AC.includes(results[0])) SelectedItem = "Air Conditioner";
-if(Camera.includes(results[0])) SelectedItem = "Camera Sport Action";
-if(Zonk.includes(results[0])) SelectedItem = "boom";
-if(PS.includes(results[0])) SelectedItem = "Playstation 5";
-if(Headset.includes(results[0])) SelectedItem = "Headset";
-if(Drone.includes(results[0])) SelectedItem = "Drone";
-if(ROG.includes(results[0])) SelectedItem = "Asus Laptop";
+if(ALGIZ.includes(results[0])) SelectedItem = "ALGIZ";
+if(Camera.includes(results[0])) SelectedItem = "URUZ";
+if(Zonk.includes(results[0])) SelectedItem = "LAGUZ";
+if(PS.includes(results[0])) SelectedItem = "RAIDO";
+if(Headset.includes(results[0])) SelectedItem = "DAGAZ";
+if(Drone.includes(results[0])) SelectedItem = "WUNJO";
+if(ROG.includes(results[0])) SelectedItem = "FEHU";
 
 box.style.setProperty("transition", "all ease 5s");
 box.style.transform = "rotate(" + results[0] + "deg)";
