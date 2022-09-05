@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'viking_elder_runes_bold';
+    src: url(/fonts/viking_elder_runes_bold.ttf);
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -85,6 +90,12 @@ h5{
     color: rgb(255, 236, 125);
     font-weight: 500;
     text-shadow: 2px 2px black;
+}
+p{
+    color:  rgb(255, 236, 125);
+    font-weight: bolder;
+    text-shadow: 0 2px black;
+    font-family: 'viking_elder_runes_bold', sans-serif;
 }
 .font{
     columns: #ffffff;
