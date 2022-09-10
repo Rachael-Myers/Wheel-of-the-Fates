@@ -14,6 +14,7 @@ function shuffle(array){
 }
 
 function spin(){
+    prompt("Ask your question of the Norns...");
     wheel.play();
     const box = document.getElementById("box");
     const element = document.getElementById("mainbox");
@@ -39,13 +40,13 @@ function spin(){
     ]);
 
 
-if(ALGIZ.includes(results[0])) SelectedItem = "ALGIZ";
-if(Camera.includes(results[0])) SelectedItem = "URUZ";
-if(Zonk.includes(results[0])) SelectedItem = "LAGUZ";
-if(PS.includes(results[0])) SelectedItem = "RAIDO";
-if(Headset.includes(results[0])) SelectedItem = "DAGAZ";
-if(Drone.includes(results[0])) SelectedItem = "WUNJO";
-if(ROG.includes(results[0])) SelectedItem = "FEHU";
+if(ALGIZ.includes(results[0])) SelectedItem = "A L G I Z";
+if(Camera.includes(results[0])) SelectedItem = "U R U Z";
+if(Zonk.includes(results[0])) SelectedItem = "L A G U Z";
+if(PS.includes(results[0])) SelectedItem = "R A I D O";
+if(Headset.includes(results[0])) SelectedItem = "D A G A Z";
+if(Drone.includes(results[0])) SelectedItem = "W U N J O";
+if(ROG.includes(results[0])) SelectedItem = "F E H U";
 
 box.style.setProperty("transition", "all ease 5s");
 box.style.transform = "rotate(" + results[0] + "deg)";
@@ -58,7 +59,7 @@ setTimeout(function(){
     applause.play();
     Swal.fire({
         title: 'The Norns Have spoken<br>This is your fate!',
-        html: 'You won&nbsp' + SelectedItem + ' | ' + '<a href="#" style="text-size: 80px; font-weight: 900; color: darkblue;"> Claim Now </a>',
+        html: 'YOUR FATE IS&nbsp' + SelectedItem + ' | ' + '<a href="#" style="text-size: 120px; font-weight: 900; color: darkblue;"> ACCEPT YOUR FATE... </a>',
         imageUrl: './media/Logo-Sepia-Honu.JPG',
         imageWidth: 500,
         imageHeight: 500,
