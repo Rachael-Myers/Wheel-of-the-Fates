@@ -23,20 +23,25 @@ function spin(){
 
     let ALGIZ = shuffle([1890, 2250, 2610]);
     let URUZ = shuffle([1850, 2210, 2570]);
-    let LAGUZ = shuffle([1770, 2130, 2490]);
     let RAIDO = shuffle([1810, 2170, 2530]);
-    let DAGAZ = shuffle([1750, 2110, 2470]);
-    let WUNJO = shuffle([1630, 1990, 2350])
-    let FEHU = shuffle([1570, 1930, 2290]);
+    let LAGUZ = shuffle([1770, 2130, 2490]);
+    let THURISAZ = shuffle([1730, 2090, 2450])
+    let DAGAZ = shuffle([1690, 2050, 2410]);
+    let WUNJO = shuffle([1650, 2010, 2370])
+    let ISA = shuffle([1610, 1970, 2330]);
+    let FEHU = shuffle([1570, 1930, 2290])
 
     let results = shuffle([
         ALGIZ[0],
         URUZ[0],
         LAGUZ[0],
         RAIDO[0],
+        THURISAZ[0],
         DAGAZ[0],
         WUNJO[0],
+        ISA[0],
         FEHU[0],
+        
     ]);
 
 
@@ -44,9 +49,12 @@ if(ALGIZ.includes(results[0])) SelectedItem = "A L G I Z";
 if(URUZ.includes(results[0])) SelectedItem = "U R U Z";
 if(LAGUZ.includes(results[0])) SelectedItem = "L A G U Z";
 if(RAIDO.includes(results[0])) SelectedItem = "R A I D O";
+if(THURISAZ.includes(results[0])) SelectedItem = "T H U R I S A Z"
 if(DAGAZ.includes(results[0])) SelectedItem = "D A G A Z";
 if(WUNJO.includes(results[0])) SelectedItem = "W U N J O";
+if(ISA.includes(results[0])) SelectedItem = "I S A"
 if(FEHU.includes(results[0])) SelectedItem = "F E H U";
+
 
 box.style.setProperty("transition", "all ease 5s");
 box.style.transform = "rotate(" + results[0] + "deg)";
