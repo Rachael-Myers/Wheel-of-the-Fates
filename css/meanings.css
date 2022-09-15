@@ -1,5 +1,16 @@
 
-
+  @font-face {
+    font-family: 'RUNE';
+    src: url(/fonts/rune.ttf);
+  }
+  @font-face {
+    font-family: 'MORPHEUS';
+    src: url(/fonts/morpheus.ttf);
+  }
+  @font-face {
+    font-family: 'evenescent';
+    src: url(/fonts/evanescent.ttf);
+  }
 
 
 
@@ -9,6 +20,13 @@ body {
     background-size: cover;
 
     font-family: Arial, Helvetica, sans-serif;
+  }
+  .rune {
+    font-family: 'morpheus', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   
   .flip-card {
