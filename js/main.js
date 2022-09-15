@@ -67,11 +67,11 @@ setTimeout(function(){
     applause.play();
     Swal.fire({
         title: 'The Norns Have spoken<br>This is your fate!',
-        html: 'YOUR FATE IS&nbsp' + SelectedItem + ' | ' + '<a href="#" style="text-size: 120px; font-weight: 900; color: darkblue;"> ACCEPT YOUR FATE... </a>',
+        html: 'YOUR FATE IS&nbsp' + SelectedItem + ' | ' + '<a href="meanings.html" style="text-size: 120px; font-weight: 900; color: darkblue;"> ACCEPT YOUR FATE... </a>',
         imageUrl: './media/Logo-Sepia-Honu.JPG',
         imageWidth: 500,
         imageHeight: 500,
-        imageAlt: 'Custom image',
+        imageAlt: 'sepia toned labradorite turtle logo of R.A.Myers',
       })
 }, 5500)
 
