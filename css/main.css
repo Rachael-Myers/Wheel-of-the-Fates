@@ -23,7 +23,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url("https://github.com/Rachael-Myers/Wheel-Spinner-Practice-03/blob/main/media/pool.JPG");
+    background: url("/media/pool.JPG");
     background-size: cover;
     background-position: center;
 }
