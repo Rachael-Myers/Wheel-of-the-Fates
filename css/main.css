@@ -23,7 +23,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url("media/pool.JPG");
+    background-image: url("media/pool.JPG");
     background-size: cover;
     background-position: center;
 }
