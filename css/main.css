@@ -1,11 +1,11 @@
 
   @font-face {
-    font-family: 'rune';
-    src: url(fonts/rune.ttf);
+    font-family: 'RUNE';
+    src: url(fonts/RUNE.TTF);
   }
   @font-face {
-    font-family: 'morpheus';
-    src: url(fonts/morpheus.ttf);
+    font-family: 'MORPHEUS';
+    src: url(fonts\MORPHEUS.TTF);
   }
   @font-face {
     font-family: 'evenescent';
@@ -32,7 +32,7 @@ main {
     padding-top: 25px;
 }
 main h1{z-index: 2000;
-    margin-top: 5%;
+    margin-top: 3em;
     font-size: 120px;
     font-family: 'MORPHEUS', cursive;
     color: gold;
@@ -122,7 +122,7 @@ p{
     color:  rgb(255, 236, 125);
     font-weight: bolder;
     text-shadow: 0 2px black;
-    font-family: 'viking_elder_runes_bold', sans-serif;
+    font-family: 'rune', cursive;
 }
 .font{
     columns: #ffffff;
