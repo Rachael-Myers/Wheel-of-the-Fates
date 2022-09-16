@@ -21,8 +21,14 @@ body {
 
     font-family: Arial, Helvetica, sans-serif;
   }
-  section {
-    display: ;
+  .border {
+    border: 12px double black;
+  }
+  .column1, .column2, .column3 {
+    margin: 5rem auto;
+    width: min(90%, 75rem);
+    display: flex;
+    grid-template-columns: 33% 33% 33%;
   }
   .rune {
     font-size: 10em;
@@ -36,9 +42,9 @@ body {
   
   .flip-card {
     background-color: transparent;
-    width: 300px;
-    height: 300px;
-    perspective: 1000px;
+    width: 400px;
+    height: 400px;
+    perspective: 1200px;
   }
   
   .flip-card-inner {
@@ -75,12 +81,14 @@ body {
     transform: rotateY(180deg);
   }
   .flip-card-back p{
-    font-size: x-large;
+    font-size: 30px;
   }
   .flip-card-back h1 {
-font-size: xx-large;
+font-size: 3rem;
+font-weight: bolder;
   }
  header h2 {
+  font-family: morpheus;
     font-size: 5em;
     text-align: center;
     color: gold;
@@ -101,7 +109,7 @@ font-size: xx-large;
     
   }
   button :hover {
-    background-color: rgb(246, 235, 170);
+    background-color: rgb(210, 180, 87);
   }
   button .img :hover {
     background-color: rgb(246, 235, 170);
