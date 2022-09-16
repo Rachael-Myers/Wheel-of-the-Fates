@@ -1,15 +1,15 @@
 
   @font-face {
     font-family: 'rune';
-    src: url(/fonts/rune.ttf);
+    src: url(fonts/rune.ttf);
   }
   @font-face {
     font-family: 'morpheus';
-    src: url(/fonts/morpheus.ttf);
+    src: url(fonts/morpheus.ttf);
   }
   @font-face {
     font-family: 'evenescent';
-    src: url(/fonts/evanescent.ttf);
+    src: url(fonts/evanescent.ttf);
   }
 
 
