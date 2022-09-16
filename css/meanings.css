@@ -21,10 +21,15 @@ body {
 
     font-family: Arial, Helvetica, sans-serif;
   }
+  section {
+    display: ;
+  }
   .rune {
-    font-family: 'morpheus', cursive;
+    font-size: 10em;
+    font-family: 'rune', cursive;
+    text-shadow: 3px 3px rgb(249, 230, 62);
     position: absolute;
-    top: 50%;
+    top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -64,9 +69,16 @@ body {
   }
   
   .flip-card-back {
-    background-color: #2980b9;
-    color: white;
+    background-color: #fbf6df;
+    color: rgb(69, 0, 0);
+    font-weight: 900;
     transform: rotateY(180deg);
+  }
+  .flip-card-back p{
+    font-size: x-large;
+  }
+  .flip-card-back h1 {
+font-size: xx-large;
   }
  header h2 {
     font-size: 5em;
