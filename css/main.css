@@ -5,7 +5,7 @@
   }
   @font-face {
     font-family: 'MORPHEUS';
-    src: url(fonts\MORPHEUS.TTF);
+    src: url(fonts/MORPHEUS.TTF);
   }
   @font-face {
     font-family: 'evenescent';
@@ -18,11 +18,12 @@
     padding: 0;
     outline: none;
 }
-body{
+body
+{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     background-image: url("media/pool.JPG");
     background-size: cover;
     background-position: center;
@@ -31,6 +32,9 @@ nav {
     margin: 25px;
     padding: 25px;
 }
+
+
+
 main {
     margin-top: 5%;
     padding-top: 25px;
