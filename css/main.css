@@ -27,8 +27,12 @@ body{
     background-size: cover;
     background-position: center;
 }
+nav {
+    margin: 25px;
+    padding: 25px;
+}
 main {
-    margin-top: 50px;
+    margin-top: 5%;
     padding-top: 25px;
 }
 main h1{z-index: 2000;
