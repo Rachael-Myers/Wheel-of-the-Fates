@@ -67,11 +67,12 @@ setTimeout(function(){
     applause.play();
     Swal.fire({
         title: 'The Norns Have spoken<br>This is your fate!',
-        html: 'YOUR FATE IS&nbsp' + SelectedItem + ' | ' + '<a href="meanings.html" style="text-size: 120px; font-weight: 900; color: darkblue;"> ACCEPT YOUR FATE... </a>',
-        imageUrl: './media/Logo-Sepia-Honu.JPG',
-        imageWidth: 500,
+        html: 'YOUR FATE IS&nbsp' + SelectedItem + ' | ' + '<a href="meanings.html" style="font-size: 64px; font-weight: 900; color: darkblue;"> ACCEPT YOUR FATE... </a>',
+        width: '64em',
+        imageUrl: 'media\odin-allfather.png',
+        imageWidth: 800,
         imageHeight: 500,
-        imageAlt: 'sepia toned labradorite turtle logo of R.A.Myers',
+        imageAlt: 'artists rendering of the Norse god Odin Allfather, by R.A.Myers',
       })
 }, 5500)
 
