@@ -33,6 +33,7 @@ body {
   .rune {
     font-size: 10em;
     font-family: 'rune', cursive;
+
     text-shadow: 3px 3px rgb(249, 230, 62);
     position: absolute;
     top: 5%;
