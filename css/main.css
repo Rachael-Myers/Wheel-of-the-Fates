@@ -1,11 +1,11 @@
 
   @font-face {
-    font-family: 'RUNE';
-    src: url(fonts/RUNE.TTF);
+    font-family: 'rune';
+    src: url(fonts/rune.ttf);
   }
   @font-face {
-    font-family: 'MORPHEUS';
-    src: url(https://github.com/Rachael-Myers/Wheel-of-the-Fates/blob/main/fonts/MORPHEUS.TTF);
+    font-family: 'morpheus';
+    src: url(fonts/morpheus.ttf);
   }
   @font-face {
     font-family: 'evenescent';
@@ -42,7 +42,7 @@ main {
 main h1{z-index: 2000;
     margin-top: 3em;
     font-size: 120px;
-    font-family: 'MORPHEUS', cursive;
+    font-family: 'morpheus', cursive;
     color: gold;
     text-shadow: 2 4px rgb(128, 95, 11);
 }
