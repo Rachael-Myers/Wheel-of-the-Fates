@@ -1,15 +1,15 @@
 
   @font-face {
     font-family: 'rune';
-    src: url(css/fonts/rune.ttf);
+    src: url(fonts/rune.ttf);
   }
   @font-face {
     font-family: 'morpheus';
-    src: url(css/fonts/morpheus.ttf);
+    src: url(fonts/morpheus.ttf);
   }
   @font-face {
     font-family: 'evenescent';
-    src: url(css/fonts/evanescent.ttf);
+    src: url(fonts/evanescent.ttf);
   }
 
 
@@ -30,11 +30,10 @@ body {
     display: flex;
     grid-template-columns: 33% 33% 33%;
   }
-  .rune {
-    font-size: 10em;
+  h4 {
+    font-size: 5em;
     font-family: 'rune', cursive;
-
-    text-shadow: 3px 3px rgb(249, 230, 62);
+   text-shadow: 3px 3px rgb(249, 230, 62);
     position: absolute;
     top: 5%;
     left: 50%;
